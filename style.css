@@ -1,0 +1,27 @@
+body{margin: 0;
+padding: 0;
+border: 0;
+text-decoration: none;
+background-color: white;}
+p{padding: 0; margin: 0; line-height: 1.5;}
+
+.header{ background-color: black;
+  height: 30px;
+  width: 100%; 
+  display:flex; 
+  justify-content: space-between;
+  position: fixed;}
+.menu{color: white ; 
+  font-size: 13px ; 
+  margin: auto;
+  text-decoration: none; }
+.linha1{ background-color:#817f7f;
+ height: 15px; padding: 30px; font-size: 13px; text-align: center;}
+.iphone{ text-align: center; 
+  text-decoration: none;
+  padding-top: 80px; 
+  font-family: 'Fjalla One', sans-serif;
+font-size: 45px; 
+background-color: #fbfbfd;}
+.iphone12{ text-align: center; text-decoration: none; font-size: 20px;}
+.ip-12{ font-size: 25px; padding-bottom: 10px;}
