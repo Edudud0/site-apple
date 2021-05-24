@@ -3,25 +3,123 @@ padding: 0;
 border: 0;
 text-decoration: none;
 background-color: white;}
+
 p{padding: 0; margin: 0; line-height: 1.5;}
 
+/* topo do site */
 .header{ background-color: black;
-  height: 30px;
+  height: 33px;
   width: 100%; 
-  display:flex; 
-  justify-content: space-between;
   position: fixed;}
-.menu{color: white ; 
+
+  .nav{justify-content: space-between; 
+    margin: auto; 
+    display: flex; width: 60vw;}
+  
+  .menu{color: white ; 
   font-size: 13px ; 
   margin: auto;
   text-decoration: none; }
-.linha1{ background-color:#817f7f;
+  .bi{color: white;}
+
+  .linha1{ background-color:#cfcfcf;
  height: 15px; padding: 30px; font-size: 13px; text-align: center;}
-.iphone{ text-align: center; 
+
+ /* sessão iphone */
+ .iphone{ text-align: center; 
+  text-decoration: none;
+  padding-top: 80px; 
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 40px; 
+  background-color: #fbfbfd;}
+
+.iphone12{ text-align: center; text-decoration: none; font-size: 20px;}
+
+.ip-12{ font-size: 25px; padding-bottom: 10px;}
+
+/* sessão ipad */
+.ipad-pro{ text-align: center; 
   text-decoration: none;
   padding-top: 80px; 
   font-family: 'Fjalla One', sans-serif;
 font-size: 45px; 
+background-color: black; color: white;}
+
+.ipad{ text-align: center; text-decoration: none; font-size: 20px;}
+
+.ipad-1{ font-size: 25px; padding-bottom: 10px;}
+
+/* sessão mac */
+.mac-pro{ text-align: center; 
+  text-decoration: none;
+  padding-top: 80px; 
+  font-family: 'Fjalla One', sans-serif;
+font-size: 40px; 
 background-color: #fbfbfd;}
-.iphone12{ text-align: center; text-decoration: none; font-size: 20px;}
-.ip-12{ font-size: 25px; padding-bottom: 10px;}
+.imac{font-size: 50px;}
+.mac-1{ font-size: 25px; padding-bottom: 10px;}
+.mac-2{ font-size: 17px; color: gray;}
+
+.mac{ text-align: center; text-decoration: none; font-size: 20px;}
+
+/* modificação nas row */
+.liha{width: 90%;}
+
+/* sessão iphone12 */
+.ip12-pro{ text-align: center; 
+  text-decoration: none;
+  padding-top: 80px; 
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 40px; 
+  background-color:black; 
+  color: white;}
+
+.ip12-1{ font-size: 25px; padding-bottom: 10px;}
+.ip12-2{ text-align: center; text-decoration: none; font-size: 20px;}
+/* cores  */
+.relogio{ text-align: center; 
+  text-decoration: none;
+  padding-top: 80px; 
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 35px; 
+  background-color: #fbfbfd; 
+  color: black;}
+
+.relog-1{ font-size: 25px; padding-bottom: 10px;}
+.relog-2{ text-align: center; text-decoration: none; font-size: 17px; line-height: 0,5;}
+
+/* mão */
+.mao{ text-align: center; 
+  text-decoration: none;
+  padding-top: 80px; 
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 40px; 
+  background-color:#fbfbfd; 
+  color: black;}
+
+.mao-1{ font-size: 20px; padding-bottom: 10px; color: gray;}
+.mao-2{ text-align: center; text-decoration: none; font-size: 20px;}
+
+/* ONE */
+.one{ text-align: center; 
+  text-decoration: none;
+  padding-top: 80px; 
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 40px; 
+  background-color:#fbfbfd; 
+  color: black;}
+
+.one-1{ font-size: 20px; padding-bottom: 10px; color: gray; line-height: 0.8;}
+.one-2{ text-align: center; text-decoration: none; font-size: 20px;}
+/* SÉRIES */
+.series{ text-align: center; 
+  text-decoration: none;
+  padding-top: 80px; 
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 40px; 
+  background-color: black; 
+  color: black;}
+
+.seri-1{ font-size: 20px; padding-bottom: 10px; color:white; line-height: 0.8;}
+.seri-2{ text-align: center; text-decoration: none; font-size: 20px; color: white;}
+
