@@ -2,28 +2,40 @@ body{margin: 0;
 padding: 0;
 border: 0;
 text-decoration: none;
-background-color: white;}
+background-color:#fbfbfd;
+overflow-x: hidden;}
 
 p{padding: 0; margin: 0; line-height: 1.5;}
 
 /* topo do site */
-.header{ background-color: black;
+.header{ background-color:#333333;
   height: 33px;
   width: 100%; 
-  position: fixed;}
+  position: fixed;
+  opacity: 1;}
 
   .nav{justify-content: space-between; 
     margin: auto; 
     display: flex; width: 60vw;}
   
   .menu{color: white ; 
-  font-size: 13px ; 
+  font-size: 14px ; 
   margin: auto;
-  text-decoration: none; }
-  .bi{color: white;}
+  text-decoration: none; text-decoration: white; }
+  .menu:hover{color: white;}
 
-  .linha1{ background-color:#cfcfcf;
- height: 15px; padding: 30px; font-size: 13px; text-align: center;}
+  .menu-icon{color: white ; 
+    font-size: 16px ; 
+    margin: auto;
+    text-decoration: none;}
+  
+  .menu-icon:hover{color: white;}
+
+  /* sessão barra cinza */
+  .compre{text-decoration: none;}
+  
+  .linha1{ background-color:#f5f5f7;
+ height: 15px; padding: 30px 0px 30px; font-size: 13px; text-align: center; width: 100%;}
 
  /* sessão iphone */
  .iphone{ text-align: center; 
@@ -56,6 +68,7 @@ background-color: black; color: white;}
   font-family: 'Fjalla One', sans-serif;
 font-size: 40px; 
 background-color: #fbfbfd;}
+
 .imac{font-size: 50px;}
 .mac-1{ font-size: 25px; padding-bottom: 10px;}
 .mac-2{ font-size: 17px; color: gray;}
@@ -63,14 +76,14 @@ background-color: #fbfbfd;}
 .mac{ text-align: center; text-decoration: none; font-size: 20px;}
 
 /* modificação nas row */
-.liha{width: 90%;}
+.linha{width: 100%;}
 
 /* sessão iphone12 */
 .ip12-pro{ text-align: center; 
   text-decoration: none;
   padding-top: 80px; 
   font-family: 'Fjalla One', sans-serif;
-  font-size: 40px; 
+  font-size: 36px; 
   background-color:black; 
   color: white;}
 
@@ -118,8 +131,27 @@ background-color: #fbfbfd;}
   font-family: 'Fjalla One', sans-serif;
   font-size: 40px; 
   background-color: black; 
-  color: black;}
+  color: white; 
+}
 
-.seri-1{ font-size: 20px; padding-bottom: 10px; color:white; line-height: 0.8;}
-.seri-2{ text-align: center; text-decoration: none; font-size: 20px; color: white;}
+.seri-1{ font-size: 21px; padding-bottom: 20px; color:white; line-height: 0.8;}
+.seri-2{ text-align: center; text-decoration: none; font-size: 21px; color: white;}
+.seri-2:hover{color: white;}
+
+/* RODAPÉ */
+
+.rodape{ background-color:#f5f5f7;
+  height: 30vw;
+  width: 100%; opacity: 3;}
+.info{width: 80vw;margin: auto; border-bottom: 1px solid  gray;height: 22vh; padding-top: 25px;}
+.info-1{ font-size: 13px;}
+/* item do rodapé */
+.lista{margin: auto; padding-top: px; width: 80vw;}
+.list-item{ padding-top: 15px; text-decoration: none;}
+.item-1{color: black; font-size: 12px;}
+.lista1{ list-style: none; color: grey; font-size: 12px;}
+
+
+
+
 
